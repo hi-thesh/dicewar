@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+html, body{
+  overflow-x: hidden;
+}
+body{
+  /* position: relative; */
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.heading {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3.5rem;
+  color: #ebd834;
+  
+}
+
+p {
+  font-size: 2rem;
+  
+  color: #EEEEEE;
+  font-family: 'Sriracha', cursive;
+}
+
+img {
+  width: 7rem;
+  height: 7rem;
+}
+
+footer {
+  margin-top: 2rem;
+  color: #EEEEEE;
+  text-align: center;
+  padding-top: 1.4rem;
+  font-family: 'Sriracha', cursive;
+  background-color: rgb(34, 34, 34);
+  padding-bottom: 2rem;
+}
+
+.player1Bg{
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3.5rem;
+  color: #f36974;
+}
+
+.player2Bg{
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3.5rem;
+  color: #d2d6d6;
+}
+
+.diceHide{
+  opacity: 40%;
+}
+
+#rollDiceBtn{
+  color: #ebd834;
+  font-family: 'Sriracha', cursive;
+  font-size: 1.3rem;
+}
+
+#resetBtn{
+  color: #ebd834;
+  font-family: 'Sriracha', cursive;
+  font-size: 1.3rem;
+}
+
+.dice1 p{
+  color: #f36974;
+}
+
+.dice2 p{
+  color: #d2d6d6;
+}
+
+#aboutBtn{
+  border-color:#ebd834;
+  color:#ebd834;
+  font-weight: bolder;
+}
+
+#h11{
+  font-size: 1.3rem;
+  cursor: pointer;
+  opacity: 85%;
+}
+
+.mainBg {
+  background: radial-gradient(circle at 10% 20%, rgb(69, 86, 102) 0%, rgb(34, 34, 34) 90%);
+}
+
+

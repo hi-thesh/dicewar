@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Wars</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+  </head>
+  
+  <body class="mainBg">
+
+    <div class="container">
+      <h1 class="heading">Dice War⚔️</h1>
+
+      <div class="dice dice1">
+        <p>Player 1 🚩<span class="player1Score text-secondary"></span></p>
+        <img class="img1" src="./images/dice6.png">
+      </div>
+
+      <div class="dice dice2 mt-4">
+        <p>Player 2 🏴‍☠️<span class="player2Score text-secondary"></span></p>
+        <img class="img2" src="./images/dice6.png">
+      </div>
+
+      <div class="button">
+        <button class = "btn btn-dark mt-4" id="rollDiceBtn" onclick="refresh()">Play 🎲</button>
+        <button class = "btn btn-dark mt-4" id="resetBtn" onclick="reset()">Reset</button>
+        <button class = "btn btn-outline-dark rounded-pill mt-4" id="aboutBtn" onclick="about()">?</button>
+      </div>
+
+    </div>
+  <footer> 
+    <h2 id="h11">©2023  H i i T E S H</h2>
+  </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+</html>
